@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GCP Resource Calculator App
 
 Jira Ticket: [FINOPS-848](https://jira.devops.lloydsbanking.com.mcas.ms/browse/FINOPS-848)
@@ -129,3 +130,6 @@ Added BQ ticket: [FINOPS-802](https://jira.devops.lloydsbanking.com.mcas.ms/brow
 ### Future Improvements
 - Add other CSPs to the calculator (Azure, private cloud)
 - Check API performance
+=======
+# KartheekCh
+>>>>>>> fd8d2e958a610d35b290abbf97549865be7333d8
