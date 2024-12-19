@@ -1,0 +1,26 @@
+.header-default {
+    font-family: 'Lloyds Bank Jack';;
+    color: #62b34f;
+}
+
+.header-primarys {
+    font-family: 'Lloyds Bank Jack';
+    color: #62b34f;
+}
+.header-primary{
+    font-family: 'Lloyds Bank Jack';
+    color: #62b34f;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+@media (max-width= 1024px) {
+    .header-primary{
+        top: 10%;
+    }
+}
+
+.header-secondary {
+    font-family: 'Lloyds Bank Jack';
+    color: #62b34f;
+}

@@ -1,0 +1,42 @@
+.download-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .svg-container {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .svg-container img {
+    max-width: 6%;
+    height: auto;
+  }
+  .download-format{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .download-format > div >img{
+    max-width: 60%;
+    height: auto;
+  }
+  /* .svg-wrapper{
+
+    margin-top: 5px;
+    text-align: center;
+  }
+  .svg-wrapper img{
+    max-width: 6%;
+    height: auto;
+  } */

@@ -1,0 +1,15 @@
+.welcomeBanner{
+    position: absolute;
+    background-color: aliceblue;
+    
+    
+}
+.containerBanner{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
