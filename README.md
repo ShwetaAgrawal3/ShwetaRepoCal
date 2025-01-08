@@ -131,5 +131,4 @@ Added BQ ticket: [FINOPS-802](https://jira.devops.lloydsbanking.com.mcas.ms/brow
 - Add other CSPs to the calculator (Azure, private cloud)
 - Check API performance
 =======
-# KartheekCh
->>>>>>> fd8d2e958a610d35b290abbf97549865be7333d8
+

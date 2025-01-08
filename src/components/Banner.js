@@ -38,7 +38,7 @@ const Banner = () => {
         {!windowLocation() && <HomeScreen isButtonDisabled={isButtonDisabled} setIsButtonDisabled={setIsButtonDisabled} />}
       </div>
     </header>
-    <LandingPage/>
+    {/* <LandingPage/> */}
     </>
     
   );

@@ -14,6 +14,7 @@ import BQComponent from './Products/BQComponent';
 import StickyButton from './StickyButton';
 import ProductCostTable from './ProductCostTable/ProductCostTable';
 import ModalView from './ModalV1/modalView';
+import LandingPage from './LandingPage/LandingPage';
 // import FilestoreComponent from './FilestoreComponent';
 
 const defaultValues = {
@@ -271,7 +272,7 @@ function debounce(func, wait) {
 }
 
   const buttons = [
-    { text: 'Open Product Selection', onClick: handleTileModalOpen },
+    { text: '+Add to estimate', onClick: handleTileModalOpen },
   ];
   const buttonSave = [
     { text: 'Details', onClick: handleDetailsClick },,
@@ -345,6 +346,7 @@ function debounce(func, wait) {
           </select>
         </div>
        
+       
         {selectedProducts
           .filter((product) =>{return  product === selectedDropdownValue
           })
@@ -367,10 +369,13 @@ function debounce(func, wait) {
 const grandTotal = result.grand_total;
   return (
     <div className="calculator-container">
+      <LandingPage AddToEstimateBtn={buttons} />
       <div>
-      <StickyButton buttons={buttons} />
+
+      {/* <StickyButton buttons={buttons} /> */}
        
       </div>
+
    
     <div className="headers-input-container">
       <Headers level={1} text='GCP Calculator' className='header-primary'/>
@@ -378,6 +383,8 @@ const grandTotal = result.grand_total;
      <div className='item1'>
       {renderComponents()}
       </div> 
+
+
       <ProductCostTable result={result} initialResult={initialResult}/>
 <StickyButton buttons={buttonSave}/>
       </ModalView>
